@@ -1,5 +1,7 @@
 #include <iostream>
 using namespace std;
+
+#define DAY 7
 int main() {
 
     cout << "你个臭BB" << endl;
@@ -143,7 +145,6 @@ int main() {
      */
      const int * const ff = &cc;
 
-
      /**
       * 使用指针去访问数组
       */
@@ -156,5 +157,13 @@ int main() {
       pArray++;
       //这时候打印的就是索引为1的值
       cout << *pArray << endl;
+
+      int num = 5;
+      while (num -- > 0){
+          cout << num << endl;
+      }
+      // 常量不可被修改
+      //DAY = 9;
+      cout << DAY << endl;
     return 0;
 }
