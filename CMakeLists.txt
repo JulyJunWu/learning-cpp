@@ -4,3 +4,6 @@ project(study_space)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(study_space main.cpp)
+add_executable(study_space_1 HelloWorld.cpp)
+add_executable(study_space_2 DateTime.cpp)
+add_executable(study_space_3 Object.cpp)
