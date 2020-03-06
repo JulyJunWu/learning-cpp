@@ -3,7 +3,7 @@
 
 using namespace std;
 /**
- * 结构
+ * 结构体
  */
 struct Book{
     string name;
