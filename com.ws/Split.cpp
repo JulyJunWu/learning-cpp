@@ -14,4 +14,12 @@ void Split<A>::dance() {
     cout << a << endl;
 }
 
+void testNamespace(){
+    cout << "name space success" << endl;
+}
+
+namespace spl{
+
+}
+
 
