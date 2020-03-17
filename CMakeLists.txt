@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.15)
 project(study_space)
 
 set(CMAKE_CXX_STANDARD 14)
+#为了顺利编译socket
+include_directories(D:\\mingw64\\include)
 
 add_executable(study_space com.ws/main.cpp)
 add_executable(study_space_1 com.ws/HelloWorld.cpp)
@@ -24,3 +26,8 @@ add_executable(study_space_17 com.ws/Template.cpp)
 add_executable(study_space_18 com.ws/TemplateClass.cpp)
 add_executable(study_space_19 com.ws/Container.cpp)
 add_executable(study_space_20 com.ws/StringUse.cpp)
+#为了顺利编译socket
+link_directories(D:\\mingw64\\lib)
+link_libraries(ws2_32)
+add_executable(study_space_21 com.ws/MySocket.cpp)
+target_link_libraries(study_space_21 ws2_32)
