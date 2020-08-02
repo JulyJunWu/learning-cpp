@@ -26,6 +26,8 @@ add_executable(study_space_17 com.ws/Template.cpp)
 add_executable(study_space_18 com.ws/TemplateClass.cpp)
 add_executable(study_space_19 com.ws/Container.cpp)
 add_executable(study_space_20 com.ws/StringUse.cpp)
+add_executable(study_space_23 com.ws/ReturnParamTest.cpp)
+add_executable(study_space_24 com.ws/ThreadSafe.cpp)
 #为了顺利编译socket
 link_directories(D:\\mingw64\\lib)
 link_libraries(ws2_32)
